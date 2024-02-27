@@ -3,9 +3,6 @@ var longestCommonPrefix = function(strs) {
 
     let prefix = "";
 
-    foreach (word in strs) {
-        console.log(word)
-    }
 
     return prefix
 };
