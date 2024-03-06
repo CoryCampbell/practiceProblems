@@ -1,1 +1,5 @@
-var plusOne = function (digits) {};
+var plusOne = function (digits) {
+	let number = BigInt(digits.join(""));
+	number++;
+	return String(number).split("");
+};
