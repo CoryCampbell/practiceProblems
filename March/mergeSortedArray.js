@@ -6,3 +6,6 @@ var merge = function (nums1, m, nums2, n) {
 	//sort all of the nums
 	nums1.sort((a, b) => a - b);
 };
+
+//Time complexity: O(m+n)log(m+n)) because we are using sort
+//Space O(1) because we arent creating any new space in memory
