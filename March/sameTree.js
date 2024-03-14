@@ -1,1 +1,8 @@
-var isSameTree = function (p, q) {};
+var isSameTree = function (p, q) {
+	if (!p && !q) return true;
+	if (!p || !q) return false;
+	return p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+};
+
+//Time Complexity: O(n) because we have to check every node
+//Space Complexity: O(n) because of the depth of the trees
