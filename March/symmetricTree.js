@@ -1,0 +1,1 @@
+var isSymmetric = function (root) {};
