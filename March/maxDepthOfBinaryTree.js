@@ -11,5 +11,5 @@ var maxDepth = function (root) {
 	return 1 + Math.max(left, right);
 };
 
-//Time complexit = O(n) because we must traverse all nodes of the tree
+//Time complexity = O(n) because we must traverse all nodes of the tree
 //Space complexity = O(n) worst or O(n log n) best case
