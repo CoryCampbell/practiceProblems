@@ -1,0 +1,1 @@
+var myAtoi = function (s) {};
