@@ -1,0 +1,1 @@
+var generateParenthesis = function (n) {};
