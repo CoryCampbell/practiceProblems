@@ -1,0 +1,1 @@
+var nextPermutation = function (nums) {};
