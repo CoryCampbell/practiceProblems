@@ -20,6 +20,7 @@ var permute = function (nums) {
 
     //then we can push the final permutations in our perms list to our result
 		res.push(...perms);
+    //and then we return the n number back to our nums list for other permutations
 		nums.push(n);
 	}
 
