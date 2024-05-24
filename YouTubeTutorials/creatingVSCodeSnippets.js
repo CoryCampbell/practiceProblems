@@ -53,3 +53,11 @@ copy and paste the following code right before the last closing curly brace:
         "description": "quick setup for module.exports, type mod to use"
     }
 */
+
+class NewObject {
+	constructor(option1, option2, option3) {
+		this.option1 = option1;
+		this.option2 = option2;
+		this.option3 = option3;
+	}
+}
