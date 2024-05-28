@@ -1,63 +1,37 @@
-/*
-STARTER SNIPPETS FOR VS CODE:
->>>> all snippets must be separated by a comma if you want to add new ones <<<<
+let arr = [1, 2, 3, 4];
 
-Inside VS Code, press: ctrl + shift + P (
-Type and open: "Snippets: Configure User Snippets"
-click "New Global Snippet"
-Name it whatever you like, I used: "Custom User Snippets"
-copy and paste the following code right before the last closing curly brace:
-*/
+function demoTestingFunction(x, y) {
+	let curr = arr[0];
+	console.log("curr: ", curr);
 
-/*
-"SNIPPET: class Object Creation": {
-        "scope": "javascript",
-        "prefix": "obj",
-        "body": [
-        "class ${1:NewObject} {",
-            "    constructor(${2:option1}, ${3:option2}, ${4:option3}) {",
-            "        this.${2:option1} = ${2:option1};",
-            "        this.${3:option2} = ${3:option2};",
-            "        this.${4:option3} = ${4:option3};",
-            "    }",
-            "}"
-        ],
-        "description": "Quick class Object creation with constructor, place by typing obj"
-    },
+	for (let i = 1; i < arr.length; i++) {
+		console.log("i: ", i);
+	}
+}
 
-    "SNIPPET: Extends a new class Object": {
-        "scope": "javascript",
-        "prefix": "ext",
-        "body": [
-            "class ${1:ExtendedObject} extends ${2:Object} {",
-            "    constructor(${3:option1}, ${4:option2}, ${5:option3}) {",
-            "        super($3, $4);",
-            "        this.$5 = $5",
-            "    }",
-            "}"
-        ],
-        "description": "Quick Extends a new class Object with a constructor and also a super, place by typing ext. use tab to advance to next placeholder"
-    },
+function demoTestingFunction2(x, y) {
+	let curr = arr[0];
+	console.log("curr: ", curr);
 
-    "SNIPPET: Require for mocha": {
-        "scope": "javascript",
-        "prefix": "req",
-        "body": ["const ${1:Default} = require('./${2:default}')", "$0"],
-        "description": "Quick setup for using a Require line to test with Mocha."
-    },
+	for (let i = 1; i < arr.length; i++) {
+		console.log("i: ", i);
+	}
+}
 
-    "SNIPPET: Module.exports": {
-        "scope": "javascript",
-        "prefix": "mod",
-        "body": ["module.exports = ${1:Default}", "$2"],
-        "description": "quick setup for module.exports, type mod to use"
-    }
-*/
+const demoObject = {
+	"1": "!!!hello",
+	"2": "!!!world",
+	"3": "!!!hello world",
+	"4": "!!!demo",
+	"5": "!!!user",
+	"6": "!!!whatever"
+};
 
-class NewObject {
-	constructor(option1, option2, option3) {
-		this.option1 = option1;
-		this.option2 = option2;
-		this.option3 = option3;
+
+class Car {
+	constructor(make, model, year) {
+		this.make = make
+		this.model = model
+		this.year = year
 	}
 }
