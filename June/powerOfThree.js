@@ -1,0 +1,1 @@
+var isPowerOfThree = function (n) {};
