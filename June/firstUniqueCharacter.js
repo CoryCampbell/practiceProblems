@@ -4,6 +4,7 @@ var firstUniqChar = function (s) {
 
   //loop through the length of our string
 	for (let i = 0; i < s.length; i++) {
+    //if our char index matches our last index of char then we know its unique
 		const char = s[i];
 		if (s.indexOf(char) === s.lastIndexOf(char)) return i;
 	}
