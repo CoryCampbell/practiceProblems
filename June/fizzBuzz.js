@@ -1,0 +1,1 @@
+var fizzBuzz = function (n) {};
