@@ -1,6 +1,6 @@
 var fizzBuzz = function (n) {
 
-  //helper function for cleaner code
+  //helper function for cleaner code, determines the return value for whatever number is input
 	let helper = (num) => {
 		if (num % 15 === 0) {
 			return "FizzBuzz";
