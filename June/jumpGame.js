@@ -7,7 +7,8 @@ var canJump = function(nums) {
       //if the sum of i and the current index value is greater than the last value
       //we know that that number can traverse to the last index
         if (i + nums[i] >= lastIndex) {
-          //
+          //change the last index to the current value of i
+          //representing the step down
             lastIndex = i;
         }
     }
