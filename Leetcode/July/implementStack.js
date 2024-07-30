@@ -1,58 +1,40 @@
-var MyStack = function () {};
-
-/**
- * @param {number} x
- * @return {void}
- */
-MyStack.prototype.push = function (x) {};
-
-/**
- * @return {number}
- */
-MyStack.prototype.pop = function () {};
-
-/**
- * @return {number}
- */
-MyStack.prototype.top = function () {};
-
 class MyStack {
-    constructor() {
-        this.q = [];
-    }
-};
+  constructor() {
+    this.q = [];
+  }
+}
 
 /**
  * @param {number} x
  * @return {void}
  */
-MyStack.prototype.push = function(x) {
-    this.q.push(x);
+MyStack.prototype.push = function (x) {
+  this.q.push(x);
 
-    for (let i = 0; i < this.q.length - 1; i++) {
-        this.q.push(this.q.shift());
-    }
+  for (let i = 0; i < this.q.length - 1; i++) {
+    this.q.push(this.q.shift());
+  }
 };
 
 /**
  * @return {number}
  */
-MyStack.prototype.pop = function() {
-    return this.q.shift();
+MyStack.prototype.pop = function () {
+  return this.q.shift();
 };
 
 /**
  * @return {number}
  */
-MyStack.prototype.top = function() {
-    return this.q[0];
+MyStack.prototype.top = function () {
+  return this.q[0];
 };
 
 /**
  * @return {boolean}
  */
-MyStack.prototype.empty = function() {
-    return this.q.length === 0;
+MyStack.prototype.empty = function () {
+  return this.q.length === 0;
 };
 
 /**
