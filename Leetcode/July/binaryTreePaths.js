@@ -1,0 +1,1 @@
+var binaryTreePaths = function (root) {};
