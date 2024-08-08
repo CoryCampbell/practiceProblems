@@ -1,0 +1,1 @@
+var canWinNim = function (n) {};
