@@ -1,0 +1,1 @@
+var isPowerOfFour = function (n) {};
