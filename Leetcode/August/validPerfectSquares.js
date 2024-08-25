@@ -1,0 +1,1 @@
+var isPerfectSquare = function (num) {};
