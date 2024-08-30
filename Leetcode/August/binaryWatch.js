@@ -1,0 +1,1 @@
+var readBinaryWatch = function (turnedOn) {};
