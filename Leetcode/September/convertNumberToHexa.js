@@ -1,0 +1,1 @@
+var toHex = function (num) {};
